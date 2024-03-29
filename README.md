@@ -8,14 +8,14 @@ Aplicaciones web
 
 SW51
 
-#  Landing page del Trabajo Final
+##  Landing page del Trabajo Final
 
 Profesor: Alex Humberto Sánchez Ponce
 
 
 ### Startup: Rocket
 
-### Producto de software: CarTunn
+### Producto de software: RocketOrganize
 
 ## Integrantes
 
