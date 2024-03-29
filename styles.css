@@ -32,3 +32,22 @@
     border: 1px solid #1EC089;
     border-radius: 20em;
 }
+
+.black-color {
+    color: var(--black-color);
+}
+
+.green-color {
+    color: var(--green-color);
+}
+
+.main-section__button {
+    width: 8em;
+    background-color: var(--green-color);
+    color: white;
+    border-radius: 40em;
+}
+
+.main-section__image {
+    width: 30em;
+}
