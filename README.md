@@ -8,7 +8,7 @@ Aplicaciones web
 
 SW51
 
-#  Informe de Trabajo Final
+#  Landing page del Trabajo Final
 
 Profesor: Alex Humberto Sánchez Ponce
 
