@@ -51,3 +51,9 @@
 .main-section__image {
     width: 30em;
 }
+
+@media (min-height: 200px) {
+    .main-section__image {
+        width: 25em;
+    }
+}
