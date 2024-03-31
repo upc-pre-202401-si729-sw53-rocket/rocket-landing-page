@@ -8,14 +8,12 @@
 }
 
 .navbar__logo--right {
-    font-size: 1.2rem;
     font-weight: 900;
     font-style: italic;
     color: var(--black-color);
 }
 
 .navbar__logo--left {
-    font-size: 1.2rem;
     font-weight: 900;
     font-style: italic;
     color: var(--green-color);
@@ -33,6 +31,13 @@
     border-radius: 20em;
 }
 
+.navbar__button:hover {
+    background-color: var(--green-color);
+    color: white;
+    transition: ease-out 0.2s;
+}
+
+
 .black-color {
     color: var(--black-color);
 }
@@ -49,11 +54,11 @@
 }
 
 .main-section__image {
-    width: 30em;
+    width: 24em;
 }
 
-@media (min-height: 200px) {
+@media (min-width: 200px) {
     .main-section__image {
-        width: 25em;
+        width: 40em;
     }
 }
