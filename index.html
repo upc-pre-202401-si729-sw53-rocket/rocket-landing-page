@@ -26,11 +26,11 @@
 <body>
     <header>
         <nav
-            class="fixed top-0 left-0 right-0 bg-white z-50 flex justify-between items-center mx-auto py-8 px-12 sm:px-32 container gap-8">
+            class="fixed top-0 left-0 right-0 bg-white z-50 flex justify-between items-center mx-auto py-8 px-8 sm:px-32 container gap-8">
             <section class="flex-nowrap flex justify-center">
                 <span class="material-symbols-outlined px-2 lg:hidden">menu</span>
-                <span class="navbar__logo--right text-nowrap tracking-tighter">🗒️ ​ROCKET</span>
-                <span class="navbar__logo--left tracking-tighter">ORGANIZE</span>
+                <span class="navbar__logo--right text-xl xl:text-2xl text-nowrap tracking-tighter">🗒️ ​ROCKET</span>
+                <span class="navbar__logo--left text-xl xl:text-2xl tracking-tighter">ORGANIZE</span>
             </section>
             <ul class="hidden lg:flex">
                 <li class="navbar__ul mx-4">Product</li>
@@ -42,25 +42,30 @@
         </nav>
     </header>
 
-    <img src="assets/images/map.png" alt="map" class="absolute top-96 sm:top-40 right-0 z-10 scale-125">
+    <img src="assets/images/map.png" alt="map" class="absolute top-96 sm:top-40 right-16 sm:right-24 z-10 scale-125">
 
-    <main class="grid grid-cols-12 flex mx-auto mt-32 sm:mt-48 mb-40 px-8 sm:px-32 container gap-8 z-40 relative">
+    <main class="relative grid grid-cols-12 flex items-center mx-auto mt-32 sm:mt-40 mb-12 px-8 sm:px-32 container gap-8 z-40">
         <section class="col-span-12 sm:col-span-7">
             <section class="flex flex-col grid-span-8">
                 <section>
-                    <span class="black-color text-4xl sm:text-7xl font-black tracking-tighter">📚​ ROCKET</span>
-                    <span class="green-color text-4xl sm:text-7xl font-black italic tracking-tighter">ORGANIZE,</span>
-                    <span class="black-color text-4xl sm:text-7xl font-black tracking-tighter">YOUR</span>
-                    <span class="green-color text-4xl sm:text-7xl font-black italic tracking-tighter">BEST</span>
-                    <span class="black-color text-4xl sm:text-7xl font-black tracking-tighter">MANAGMENT</span>
-                    <span class="green-color text-4xl sm:text-7xl font-black italic tracking-tighter">TOOL</span>
-                    <span class="black-color text-4xl sm:text-7xl font-black tracking-tighter">IN</span>
-                    <span class="green-color text-4xl sm:text-7xl font-black italic tracking-tighter">SCHOOLS</span>
+                    <section class="flex flex-wrap sm:flex-nowrap">
+                        <span class="black-color text-4xl sm:text-5xl xl:text-7xl font-black tracking-tighter">ROCKET</span>
+                        <span class="green-color text-4xl sm:text-5xl xl:text-7xl font-black italic tracking-tighter">ORGANIZE,</span>
+                        <span class="black-color text-4xl sm:text-5xl xl:text-7xl font-black tracking-tighter">YOUR</span>
+                    </section>
+                    <section class="flex flex-wrap sm:flex-nowrap">
+                        <span class="green-color text-4xl sm:text-5xl xl:text-7xl font-black italic tracking-tighter">BEST</span>
+                        <span class="black-color text-4xl sm:text-5xl xl:text-7xl font-black tracking-tighter">MANAGMENT</span>
+                    </section>
+                    <section class="flex flex-wrap sm:flex-nowrap">
+                        <span class="green-color text-4xl sm:text-5xl xl:text-7xl font-black italic tracking-tighter">TOOL</span>
+                        <span class="black-color text-4xl sm:text-5xl xl:text-7xl font-black tracking-tighter">IN</span>
+                        <span class="green-color text-4xl sm:text-5xl xl:text-7xl font-black italic tracking-tighter">SCHOOLS</span>
+                    </section>
                 </section>
             </section>
             <section class="col-span-4 flex flex-col">
-                <span class="black-color italic text-xl">Empieza a utilizar nuestra herramienta que te ayudará a
-                    agilizar procesos</span>
+                <span class="black-color mr-0 xl:mr-80 italic text-2xl">Start using our tool that will help you to streamline your processes</span>
                 <span class="main-section__button font-medium mt-2 px-8 py-3 text-nowrap">Ver más</span>
             </section>
         </section>
@@ -68,6 +73,44 @@
             <img src="assets/images/model.png" alt="model" class="main-section__image">
         </section>
     </main>
+
+    <section class="relative mx-auto px-8 sm:px-32 container z-20">
+        <section class="flex flex-col text-center wrap">
+            <section class="flex-nowrap">
+                <section class="px-0 xl:px-40">
+                    <span class="black-color text-2xl sm:text-3xl xl:text-5xl font-semibold tracking-tighter">There are dozens of schools</span>
+                    <span class="green-color text-2xl sm:text-3xl xl:text-5xl font-semibold italic tracking-tighter">schools</span>
+                    <span class="black-color text-2xl sm:text-3xl xl:text-5xl font-semibold tracking-tighter">who have</span>
+                    <span class="green-color text-2xl sm:text-3xl xl:text-5xl font-semibold italic tracking-tighter">trusted us</span>
+                    <span class="black-color text-2xl sm:text-3xl xl:text-5xl font-semibold tracking-tighter">, you be one more</span>
+                </section>
+            </section>
+        </section>
+        <section class="flex justify-center my-4 sm:mt-8">
+            <div class="flex flex-col items-center">
+                <div class="flex items-center mb-1">
+                    <img src="assets/icons/icon-download.png" alt="downloads" class="w-6 sm:w-10 mr-2">
+                    <span class="green-color text-3xl sm:text-5xl font-semibold italic tracking-tighter">35M+</span>
+                </div>
+                <span class="black-color text-xl sm:text-2xl font-semibold tracking-tighter">Downloads</span>
+            </div>
+            <div class="flex flex-col items-center mx-8 xl:mx-32">
+                <div class="flex items-center mb-1">
+                    <img src="assets/icons/icon-comments.png" alt="reviews" class="w-6 sm:w-10  mr-2">
+                    <span class="green-color text-3xl sm:text-5xl font-semibold italic tracking-tighter">250K+</span>
+                </div>
+                <span class="black-color text-xl sm:text-2xl font-semibold tracking-tighter">Reviews</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="flex items-center mb-1">
+                    <img src="assets/icons/icon-star.png" alt="qualification" class="w-6 sm:w-10  mr-2">
+                    <span class="green-color text-3xl sm:text-5xl font-semibold italic tracking-tighter">4.7</span>
+                </div>
+                <span class="black-color text-xl sm:text-2xl font-semibold tracking-tighter">Qualification</span>
+            </div>
+
+        </section>
+    </section>
 </body>
 
 </html>
