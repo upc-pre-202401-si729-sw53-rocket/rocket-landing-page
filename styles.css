@@ -71,3 +71,28 @@
     scale: 1.1;
     background-color: white;
 }
+
+.pricing__card--green {
+    background-color: #1EC089;
+    color: white;
+    border: solid 2px transparent;
+}
+
+.pricing__card--green:hover {
+    background-color: white;
+    color: #1EC089;
+    border: solid 2px #1EC089;
+    transition: ease-out 0.2s;
+}
+
+.pricing__card--white {
+    background-color: white;
+    color: #1EC089;
+    border: solid 2px #1EC089;
+}
+
+.pricing__card--white:hover {
+    background-color: #1EC089;
+    color: white;
+    transition: ease-out 0.2s;
+}
