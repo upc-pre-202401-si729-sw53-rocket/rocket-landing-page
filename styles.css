@@ -2,6 +2,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --green-color: #1EC089;
     --black-color: #595959;
